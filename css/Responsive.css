@@ -1,0 +1,358 @@
+
+/*================= Mobile Screen Responsive =================*/
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 767px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .contanier {
+        width: 767px;
+    }
+    .contanierPage {
+        width: 767px;
+    }
+    .baunnerWithHeaderAndHome {
+        width: 785px;
+        height: 130vh;
+        background-color: var(--bg-crl-footer);
+        background-image: none;
+    }
+    .header .contanier {
+        width: 100%;
+        justify-content: space-around;
+        padding: 15px 20px;
+    }
+    .header .contanier .navgation ul li a {
+        display: none;
+    }
+    .header .contanier .sgininAndIcon .bar {
+        display: inline-block;
+    }
+    .header .contanier .sgininAndIcon a  {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 80px;
+    }
+    .home .contanier {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 250px;
+        width: 80%;
+    }
+    .home .contanier .btns {
+        max-width: 330px;
+    }
+    .home {
+        padding-top: 10%;
+        height: 83%;
+    }
+    .home::before {
+        display: none;
+    }
+    .home .contanier .image .figure img {
+        animation-play-state: paused;
+        margin-top: 30px;
+    }
+    .home .contanier::before,
+    .home .contanier::after {
+        display: none;
+    }
+    .quality .contanier .cards { 
+        justify-content: center;
+    }
+    .home .contanier .title .heading h1 {
+        font-size: 4rem;
+    }
+    .domain .contanier {
+        padding: 0 0;
+        width: 80%;
+    }
+    .domain {
+        width: 730px;
+        margin: 0 auto;
+    }
+    .domain .contanier .choose-domain {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        height: 660px;
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px 0;
+        font-size: 3rem;
+    }
+    .domain .contanier .choose-domain div>span {
+        font-size: 20px;
+    }
+    .domain .contanier .choose-domain div {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .quality {
+        width: 730px;
+        margin: 0 auto;
+    }
+    .quality .contanier {
+        width: 90%;
+        padding: 0 0;
+    }
+    .spatial-heading  {
+        width: 400px;
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+    .quality .contanier .para p {
+        width: 620px;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .main {
+        width: 730px;
+        margin: 0 auto;
+    }
+    .quality .contanier .cards .card {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .quality .contanier .cards .card .icon i  {
+        animation-play-state: paused;
+    }
+    
+    .quality .contanier .cards .card>.heading h4 {
+        font-size:3rem;
+        margin-bottom: 15px;
+    }
+    .quality .contanier .cards .card>.paragraph p {
+        font-size:2.7rem;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+    .quality .contanier .cards .card .btn .read-more {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .hosting .contanier .boxes .box {
+        margin-bottom: 30px;
+    }
+    .hosting .contanier .boxes {
+        padding: 0 0;
+    }
+    .hosting .contanier .boxes .box .btn .read-more {
+        font-size: 20px;
+    }
+    .hosting .contanier .heading .para p {
+        width: 620px;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .hosting .contanier .boxes .title {
+        width: 615px;
+    }
+    .hosting .contanier .boxes .title .heading {
+        line-height: 1.4;
+    }
+    .hosting .contanier .boxes .title .heading>h3 {
+        font-size: 3rem;
+    }
+    .hosting .contanier .boxes .title .heading>h4 {
+        font-size: 3rem;
+    }
+    .hosting .contanier .boxes .title .heading>h4>span {
+        font-size: 4rem;
+    }
+    .hosting .contanier .boxes .box .title .para p {
+        font-size: 3rem;
+    }
+    .personal-use {
+        font-size: 3rem;
+        width: 240px;
+        height: 60px;
+        padding-bottom: 10px;
+        border: 2px solid #2e3192;
+    }
+    .domain .contanier .choose-domain>.heading h3 {
+        font-size: 25px;
+    }
+    .about {
+        padding: 40px 20px;
+    }
+    .about .contanier {
+        width: 100%;
+    }
+    .contact-us {
+        padding: 70px 0;
+    }
+    .contact-us .contanier {
+        width: 100%;
+    }
+    .baunnerWithHeaderAndHome,
+    .domain,
+    .hosting,
+    .quality,
+    .about {
+        margin-bottom: 70px;
+    }
+    .footer {
+        width: calc(100% + 20px);
+        padding-top: 80px;
+    }
+    .footer .contanier {
+        width: 80%;
+    }
+    .footer .contanier .boxes { 
+        margin-bottom: 50px;
+    }
+    .footer .contanier .boxes .box {
+        margin-bottom: 30px;
+    }
+    .footer .contanier .boxes .box .headingAndP h4 {
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+}
+
+/*================= Meduim Screen Responsive =================*/
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .contanier {
+        margin: auto;
+        width: 985px;
+    }
+    body {
+        width: 100%;
+    }
+    .contanierPage {
+        width: 985px;
+        margin: auto;
+    }
+    .baunnerWithHeaderAndHome {
+        width: 985px;
+        background-color: var(--bg-crl-footer);
+        background-image: none;
+        margin: auto;
+        height: 80vh;
+    }
+    .header .contanier {
+        width: 85%;
+    }
+    .baunnerWithHeaderAndHome ,
+    .domain ,
+    .hosting ,
+    .quality ,
+    .about {
+        margin-bottom: 70px;
+    }
+    .home .contanier {
+        width: 85%;
+        padding-top: 100px;
+    }
+    .home .contanier .btns .read-more {
+        margin-bottom: 20px;
+    }
+    .home::before {
+        display: none;
+    }
+    .home .contanier .image .figure img {
+        animation: none;
+    }
+    .home .contanier .title .heading h1 {
+        width: fit-content;
+        font-size: 4rem;
+    }
+    .domain .contanier {
+        padding: 0 0;
+        width: 70%;
+    }
+    .quality .contanier {
+        width: 65%;
+        padding: 0;
+    }
+    .hosting .contanier .boxes {
+        padding: 0 0;
+    }
+    .hosting .contanier .boxes .box {
+        margin-bottom: 30px;
+    }
+    .contact-us .contanier {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/*================= Large Screen Responsive ================= */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .contanier {
+        width: 1195px;
+    }
+    body {
+        width: 100%;
+    }
+    .contanierPage {
+        width: 1195px;
+    }
+    .header .contanier {
+        width: 80%;
+    }
+    .home .contanier {
+        width: 80%;
+        margin-top: 60px;
+    }
+    .home::before {
+        display: none;
+    }
+    .home .contanier::before,
+    .home .contanier::after {
+        top: calc(100% + 20px);
+    }
+    .baunnerWithHeaderAndHome {
+        background-image: none;
+        background-color: var(--bg-crl-footer);
+        height: 85vh;
+        width: 1195px;
+    }
+    .home .contanier .title .heading h1 {
+        font-size: 4.5rem;
+    }
+    .domain .contanier {
+        padding: 0 0; 
+        width: 80%;
+    }
+    .quality .contanier {
+        width: 75%;
+        padding: 0 0;
+    }
+    .hosting .contanier .boxes .box {
+        margin-bottom: 30px;
+        width: 300px;
+    }
+    .hosting .contanier .boxes {
+        padding: 0 50px;
+    }
+    .contact-us .contanier {
+        width: 80%;
+    }
+    .baunnerWithHeaderAndHome,
+    .domain,
+    .hosting,
+    .quality,
+    .about {
+        margin-bottom: 50px;
+    }
+    .footer {
+        padding: 50px 0;
+    }
+    .footer .contanier {
+        width: 57%;
+    }
+    .footer .contanier .boxes {
+        margin-bottom: 30px;
+    }
+    .footer .contanier .boxes .box .headingAndP h4 {
+        margin-bottom: 0;
+    }
+}
