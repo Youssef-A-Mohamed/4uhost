@@ -262,6 +262,7 @@ section {
     transition: 1s;
     font-weight: 500;
     border-radius: 50px;
+    padding: 10px 25px;
     height: 50px;
     text-transform: uppercase;
     border: none;
@@ -402,6 +403,7 @@ section {
     transition: 1s;
     margin-bottom: 30px;
     margin-left: 10px;
+    border: none;
 }
 .quality .contanier .cards .card .icon i {
     font-size: 9rem;
